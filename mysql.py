@@ -2,8 +2,8 @@
 
 #connectivity with SQLite
 
-import sqlite3
-con=sqlite3.connect('data.dp')
+# import sqlite3
+# con=sqlite3.connect('data.dp')
 
 #creating the table named stud
 
@@ -38,11 +38,11 @@ con=sqlite3.connect('data.dp')
 
 #delete the student whose Name is xyz
 
-delete='''delete from stud1 where NAME="cde"'''
-con.execute(delete)
-cursor=con.execute('SELECT * FROM stud1')
-for i in cursor:
-	print(i)
+# delete='''delete from stud1 where NAME="cde"'''
+# con.execute(delete)
+# cursor=con.execute('SELECT * FROM stud1')
+# for i in cursor:
+# 	print(i)
 
 
 
